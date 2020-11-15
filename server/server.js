@@ -1,3 +1,4 @@
+import path from 'path'
 const NewCar =  require( './services/model/cars-model')
 const CarsCategory = require('./services/model/cars-category')
 const express = require('express')
@@ -12,6 +13,9 @@ const server = express()
 const PORT = process.env.PORT || 8080
 server.use(bodyParser.json({ limit: '50mb', extended: true }))
 server.use(cors())
+if(process.env.NODE_ENV === 'production'){
+    server.use(express.static(path.join(path.resolve(), '/build')))
+}
 
 server.listen(PORT, () => {
     console.log(`Server is started port: ${PORT}`)
