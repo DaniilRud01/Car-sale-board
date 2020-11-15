@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -15px;
+    position: relative;
+}
+.col-12{
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.col-4{
+    width: 33.333%;
+    padding: 0 15px;
+}
+.modal_item{
+    height: 200px;
+}
+.item_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+    width: 100%;
+    height: 100%;
+}
+#create_image-text{
+    font-size: 20px;
+    color: #4b4d4f;
+}
+.close_btn{
+    padding: 15px 0;
+    width: 150px;
+    background: transparent;
+    border: 1px solid rgb(214, 11, 11);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    margin: 20px 20px;
+}
+.close_btn:hover{
+    background: rgb(217, 9, 9);
+    color: #fff;
+}
+.create_car-btn{
+    padding: 15px 0;
+    width: 150px;
+    background: transparent;
+    border: 1px solid #108d11;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    margin-top: 20px;
+}
+.create_car-btn:hover{
+    color: #fff;
+    transition: .3s;
+    background: #108d11;
+}
+.create_car-btn:active {
+    padding: 20px 0;
+}
+#create_car-title{
+    padding: 10px;
+    color: #989896;
+    font-size: 16px;
+    resize: none;
+
+}
+.create_car_image-carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.create_car_image-carousel{
+    height: 250px;
+}
+.add-cars_input_year{
+    border: none;
+    text-align: center;
+    color: #a7a1a1;
+    font-weight: bold;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.add-cars_input_volume{
+    border: none;
+    text-align: center;
+    color: #a7a1a1;
+    font-weight: bold;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.add-cars_input_price{
+    border: none;
+    text-align: center;
+    color: #a7a1a1;
+    font-weight: bold;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.phone_input{
+    padding: 8px;
+    border: 1px solid #989896;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 82%;
+    border-radius: 5px;
+}

@@ -1,0 +1,131 @@
+.container{
+    max-width: 1110px;
+    margin: 100px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.item{
+    height: 100%;
+}
+.container_filters{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#catalog_filter_body-type, #catalog_filter_type-drive{
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 250px;
+    border-color: #98989660;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #4b4d4f;
+    outline: none;
+}
+.catalog_year_filter{
+    border: 1px solid #98989660;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+}
+.catalog_input-year{
+    width: 50px;
+    padding: 8px 3px;
+    box-sizing: border-box;
+    background: #faebd74a;
+    border-right: 1px solid #98989660;
+    font-weight: bold;
+    color: #5b5e61;
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+}
+.catalog_input-year-decrease,.catalog_input-year-increase {
+    width: 95px;
+    padding: 8px;
+    border: none;
+    text-align: center;
+    color: #a7a1a1;
+    font-weight: bold;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+.catalog_input-year-decrease:focus{
+    font-size: 16px;
+}
+.catalog_input-year-increase:focus{
+    font-size: 16px;
+}
+.catalog_input-year-increase{
+    border-left: 1px solid #98989660;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+}
+.catalog_search-input{
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    font-weight: 700;
+    color: #a7a1a1;
+    outline: none;
+}
+.catalog_filter-btn{
+    margin-top: 10px;
+    padding: 10px 0;
+    width: 100px;
+    background: #325d88;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.catalog_filter-btn:hover{
+    transition: .3s;
+    background: #2a4e72;
+}
+.container_content .item{
+    border: 1px solid #94949440;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container_content .item .container_cars-photo {
+    width: 100%;
+}
+.container_cars-title{
+    padding: 5px;
+}
+.container_cars-title div{
+    color: #c10d0d;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container_cars-title .cars-text{
+    font-size: 16px;
+    color: #c10d0d;
+}

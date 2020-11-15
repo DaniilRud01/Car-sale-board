@@ -1,0 +1,48 @@
+header{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #3e3f3a;
+    position: relative;
+}
+header .header_logo{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 100px;
+}
+header .header_btn__new-post{
+    margin-right: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #989896;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+header .header_btn__new-post:hover{
+    color: #fff;
+}
+header #header_select_settings{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #989896;
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+#header_select_settings:hover{
+    color: #fff;
+}
+.select_setting{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #989896;
+    position: absolute;
+    right: 100px;
+    text-align: center;
+    line-height: 28px;
+}
